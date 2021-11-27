@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tarea2</title>
+  </head>
+  <body>
+    <form name="formulario" action="/send.php" method="post">
+      <nav>
+        <fieldset>
+          <legend><h2>Personal Information</h2></legend>
+          <label>*First Name: <input type="text" name="nombre" /></label>
+          
+          <label>Midle Name: <input type="text" name="medio" /></label>
+          
+          <label>*Last Name <input type="text" name="last" /></label>
+        
+        </fieldset>
+      </nav>
+      <nav>
+        <fieldset>
+          <legend><h2>Adress</h2></legend>
+          <label>Adress: <input type="text" name="direccion" /></label>
+          <label>City or Town: <input type="text" name="ciudad"></label>
+          <label >State:  <select name="combo">
+            
+              <option value="0" selected>Choose a State </option>
+              <option value="1">Opcion 1</option>
+              <option value="2" >Opción 2</option>
+              <option value="3">Opción 3</option>
+      
+          </select></label>
+          <label>*Zip code <input type="number" name="zip_code"></label>
+        </fieldset>
+      </nav>
+    </form>
+  </body>
+</html>

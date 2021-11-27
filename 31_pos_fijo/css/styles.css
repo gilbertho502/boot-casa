@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkslategrey;
+
+}
+.cuadro{
+    width: 600px;
+    height: 1000px;
+    background-color: aqua;
+    margin: auto;
+    z-index: 1;
+    margin-top: 25px;
+}
+.rectangulo{
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.fijo{
+    position: fixed; 
+}
+.pegajoso{
+    position: sticky;
+}
