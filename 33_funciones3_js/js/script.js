@@ -43,3 +43,5 @@ do {
 while (auto < META);
 
 console.log("Total recorrido: ", auto, " metros")
+
+//una linea de comentario
